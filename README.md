@@ -68,7 +68,7 @@ to `zshrc`.
 Sourcing is recommended, because it can be done early, at top of zshrc, without a
 plugin manager – to acquire the unique identification as early as possible.
 
-## [Zplugin](https://github.com/zdharma/zplugin)
+## [Zplugin](https://github.com/zdharma-continuum/zinit)
 
 Add `zplugin load zdharma/zsh-unique-id` to your `.zshrc` file. Zplugin will clone the plugin
  the next time you start zsh. To update issue `zplugin update zdharma/zsh-unique-id`.
