@@ -2,7 +2,7 @@
 
 #### Commit count
 Don't worry about **low commit count**, this project is a derivative of
-[zdharma/zconvey](https://github.com/zdharma/zconvey), which has ~190 commits and
+[zdharma-continuum/zconvey](https://github.com/zdharma-continuum/zconvey), which has ~190 commits and
 has been maintained and used for 1.5 years now.
 
 ### Introduction
@@ -68,23 +68,23 @@ to `zshrc`.
 Sourcing is recommended, because it can be done early, at top of zshrc, without a
 plugin manager – to acquire the unique identification as early as possible.
 
-## [Zplugin](https://github.com/zdharma-continuum/zinit)
+## [Zinit](https://github.com/zdharma-continuum/zinit)
 
-Add `zplugin load zdharma/zsh-unique-id` to your `.zshrc` file. Zplugin will clone the plugin
- the next time you start zsh. To update issue `zplugin update zdharma/zsh-unique-id`.
+Add `zinit load zdharma-continuum/zsh-unique-id` to your `.zshrc` file. Zinit will clone the plugin
+ the next time you start zsh. To update issue `zinit update zdharma-continuum/zsh-unique-id`.
 
 ## Antigen
 
-Add `antigen bundle zdharma/zsh-unique-id` to your `.zshrc` file. Antigen will handle
+Add `antigen bundle zdharma-continuum/zsh-unique-id` to your `.zshrc` file. Antigen will handle
 cloning the plugin for you automatically the next time you start zsh.
 
 ## Oh-My-Zsh
 
 1. `cd ~/.oh-my-zsh/custom/plugins`
-2. `git clone git@github.com:zdharma/zsh-unique-id.git`
+2. `git clone https://github.com/zdharma-continuum/zsh-unique-id.git`
 3. Add `zsh-unique-id` to your plugin list
 
 ## Zgen
 
-Add `zgen load zdharma/zsh-unique-id` to your .zshrc file in the same place you're doing
+Add `zgen load zdharma-continuum/zsh-unique-id` to your .zshrc file in the same place you're doing
 your other `zgen load` calls in.
